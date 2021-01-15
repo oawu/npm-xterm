@@ -6,6 +6,7 @@
 ## 說明
 將 Node.js 在終端機上輸出的文字給予色彩，並支援 String prototype
 
+![@oawu/xterm](xterm.png)
 
 ## 安裝
 
