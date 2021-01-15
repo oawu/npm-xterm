@@ -11,7 +11,9 @@
     "url": "git+https://github.com/comdan66/node-Xterm.git"
   },
   "keywords": [
-    "xterm", "terminal", "colorful"
+    "xterm",
+    "terminal",
+    "colorful"
   ],
   "author": {
     "name": "OA Wu",
