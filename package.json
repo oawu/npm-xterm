@@ -1,0 +1,26 @@
+{
+  "name": "@oawu/xterm",
+  "version": "1.0.0",
+  "description": "終端機的色彩工具 🌈",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comdan66/node-Xterm.git"
+  },
+  "keywords": [
+    "xterm", "terminal", "colorful"
+  ],
+  "author": {
+    "name": "OA Wu",
+    "email": "comdan66@gmail.com",
+    "url": "https://www.ioa.tw"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comdan66/node-Xterm/issues"
+  },
+  "homepage": "https://github.com/comdan66/node-Xterm#readme"
+}
