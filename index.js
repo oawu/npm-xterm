@@ -75,7 +75,7 @@ Xterm.bgLightGray   = Xterm.backgroundLightGray   = text => Xterm(text).bg(15)
 let isStringPrototype = false
 
 Xterm.stringPrototype = function() {
-  if (isStringPrototype) return
+  if (isStringPrototype) return Xterm
   else isStringPrototype = true
 
   Object.defineProperty(String.prototype, 'blod', { get () { return Xterm.blod(this).toString() } })
@@ -121,6 +121,8 @@ Xterm.stringPrototype = function() {
   Object.defineProperty(String.prototype, 'bgLightPurple', { get () { return Xterm.bgLightPurple(this).toString() } })
   Object.defineProperty(String.prototype, 'bgLightCyan', { get () { return Xterm.bgLightCyan(this).toString() } })
   Object.defineProperty(String.prototype, 'bgLightGray', { get () { return Xterm.bgLightGray(this).toString() } })
+
+  return Xterm
 }
 
 module.exports = Xterm
