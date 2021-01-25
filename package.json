@@ -1,6 +1,6 @@
 {
   "name": "@oawu/xterm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "🌈 轉吧，終端機的七彩霓虹燈",
   "main": "index.js",
   "scripts": {
