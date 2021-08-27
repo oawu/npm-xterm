@@ -29,7 +29,7 @@ console.log('灰'.bgCyan   + '|' + Xterm.bgCyan('灰')   + ' ' + '亮灰'.bgLigh
 console.log('灰'.bgGray   + '|' + Xterm.bgGray('灰')   + ' ' + '亮灰'.bgLightGray   + '|' + Xterm.bgLightGray('亮灰'))
 
 console.log()
-console.log('粗'.blod + Xterm.blod('粗'))
+console.log('粗'.bold + Xterm.bold('粗'))
 console.log('細'.dim + Xterm.dim('細'))
 console.log('斜'.italic + Xterm.italic('斜'))
 console.log('底'.underline + Xterm.underline('底'))
