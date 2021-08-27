@@ -15,7 +15,7 @@ const Xterm = function(text) {
 
 Xterm.prototype = { ...Xterm.prototype,
   toString () { return this.codes.reduce((a, b) => b + a + '\x1b[0m', this.text) },
-  blod () { return this.code('\x1b[1m') },
+  bold () { return this.code('\x1b[1m') },
   dim () { return this.code('\x1b[2m') },
   italic () { return this.code('\x1b[3m') },
   underline () { return this.code('\x1b[4m') },
@@ -28,7 +28,7 @@ Xterm.prototype = { ...Xterm.prototype,
   bg (code) { return this.background(code) },
 }
 
-Xterm.blod      = text => Xterm(text).blod()
+Xterm.bold      = text => Xterm(text).bold()
 Xterm.dim       = text => Xterm(text).dim()
 Xterm.italic    = text => Xterm(text).italic()
 Xterm.underline = text => Xterm(text).underline()
@@ -76,7 +76,7 @@ Xterm.stringPrototype = function() {
   if (String.prototype.xterm) return
   else String.prototype.xterm = true
 
-  Object.defineProperty(String.prototype, 'blod', { get () { return Xterm.blod(this).toString() } })
+  Object.defineProperty(String.prototype, 'bold', { get () { return Xterm.bold(this).toString() } })
   Object.defineProperty(String.prototype, 'dim', { get () { return Xterm.dim(this).toString() } })
   Object.defineProperty(String.prototype, 'italic', { get () { return Xterm.italic(this).toString() } })
   Object.defineProperty(String.prototype, 'underline', { get () { return Xterm.underline(this).toString() } })
