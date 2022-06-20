@@ -1,6 +1,6 @@
 {
   "name": "@oawu/xterm",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "🌈 轉吧，終端機的七彩霓虹燈",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comdan66/node-Xterm.git"
+    "url": "git+https://github.com/oawu/npm-xterm.git"
   },
   "keywords": [
     "xterm",
@@ -17,12 +17,12 @@
   ],
   "author": {
     "name": "OA Wu",
-    "email": "comdan66@gmail.com",
+    "email": "oawu.tw@gmail.com",
     "url": "https://www.ioa.tw"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/comdan66/node-Xterm/issues"
+    "url": "https://github.com/oawu/npm-xterm/issues"
   },
-  "homepage": "https://github.com/comdan66/node-Xterm#readme"
+  "homepage": "https://github.com/oawu/npm-xterm#readme"
 }
